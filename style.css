@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --bg-color: #fff;
+    --text-color: #1C231F;
+    --main-color: #63AC45;
+    --info-btn-color:#F7921E;
+
+    --big-font: 5rem;
+    --p-font: 1.1;
+}
+
+body{
+    background: var(--bg-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+    
+}
+.page-banner {
+    position: relative;
+    z-index: 1;
+}
+.bg_cover {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pb-170 {
+    padding-bottom: 170px;
+}
+.pt-170 {
+    padding-top: 170px;
+}
+.page-title{
+    font-weight: 700;
+    font-size: 80px;
+}
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .section-title span.sub-title {
+    margin-bottom: 15px;
+}
+
+.sub-title {
+    font-size: 30px;
+    line-height: 0.9;
+    font-weight: 600;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover, .form-control-borderless:active, .form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+
+.main-btn.btn-green {
+    background-color: #63AC45;
+    width:200px;
+}
+
+button {
+    border: none;
+}
