@@ -4,7 +4,7 @@ document.getElementById("searchBtn").addEventListener("click", () => {
         method: 'GET'
     };
 
-    fetch(`http://api.weatherapi.com/v1/current.json?key=2a5b6d6f02964d368d585400233012&q=${searchVal}`, requestOptions)
+    fetch(`https://api.weatherapi.com/v1/current.json?key=2a5b6d6f02964d368d585400233012&q=${searchVal}`, requestOptions)
         .then(response => response.json())
         .then(data => {
             document.getElementById("temp").innerHTML = data['current']['temp_c'] + "c";
